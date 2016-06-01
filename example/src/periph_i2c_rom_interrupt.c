@@ -551,6 +551,8 @@ int main(void)
 
 		lastState = state;
 		printf("TEMP : %d\n", temp);
+		
+		/* Code bellow sometimes works, sometimes not */
 		showNumber(temp);
 		for(int i = 0; i<=2; i++){
 			showNumberOnDisplay(10,i);
